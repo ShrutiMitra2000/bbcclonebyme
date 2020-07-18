@@ -1,0 +1,150 @@
+
+body{ margin:0;
+      font-family:Arial,Helvetica,freesans,sans-serif;
+     }
+
+.top-bar{background-color:white;
+         width:100%;
+         height:40px;
+         color:black;
+         }
+
+.top-bar ul{margin:0;
+            padding:0;
+}
+
+.top-bar ul li{list-style:none;
+               float:left; 
+                font-weight:Bold;
+                font-size:1.1em;
+                 float:left;
+                 padding:6px 20px 12px 10px;
+                 border-right:1px solid #848484;
+                 padding-top:6px;
+} 
+
+.top-bar ul li:hover{border-bottom:3px solid black;
+                     font-size:1.3em;
+}
+.fixed-width{margin:0 auto;
+         width:1000px;
+         }
+
+.news-bar{background-color:red;
+         width:100%;
+         height:60px;
+         color:white;
+         }
+
+.news-bar p{margin:0 auto;
+            padding:0 100px 0 0;
+            font-size:2.5em;
+            font-family:Arial;
+            position:relative;
+            right:2px;
+}
+.category-bar{background-color:#A91717;
+         width:100%;
+         height:30px;
+         color:white;
+         }
+
+.category-bar ul{margin:0;
+                  padding:0;
+                  list-style:none;
+}
+
+.category-bar ul li{ 
+                font-size:1em;
+                font-family:Arial;
+                 position:relative;
+                 right:10px;
+                 top:2px;
+                 float:left;
+                 padding:3px 10px 4px 9px;
+                 border-right:1px solid #BB4545;
+                 
+} 
+
+
+.location-bar{background-color:white;
+         width:100%;
+         height:40px;
+         color:black;
+         }
+
+.location-bar ul{margin:0;
+                  padding:0;
+                  list-style:none;
+}
+
+.location-bar ul li{
+               float:left; 
+                font-size:1em;
+                font-family:Arial;
+                 position:relative;
+                 right:10px;
+                 top:2px;
+                 padding:10px;
+                 border-right:1px solid #B4B4B4;
+                 
+} 
+.location-bar ul li:hover{border-bottom:2px solid #A91717;
+                     font-size:1.1em;
+                     font-weight:bold;
+} 
+.content{background-color:white;
+         width:100%;
+         color:black;
+         }
+.content h1{color:#1167A8;
+            }
+.content img{float:right;
+             position:relative;
+             right:360px;
+              }
+.content p{width:215px;
+}
+.content a{text-decoration:none;
+}
+.watch-listen{float:right;
+              position:relative;
+              bottom:307px;
+              left:200px;
+              border-left:1px solid #B4B4B4;
+              padding:0 0 0 20px;
+}
+.watch-listen h2{font-family:Arial;
+                  font-weight:100;
+                  margin:0 0 20px 0;
+                 padding:0;
+}
+.watch-listen img{position:relative;
+                  right:7px;
+}
+#content-links{width:270px;
+               line-height:1.7em;
+               margin-top:65px;}
+#logo{float:left;
+      padding-top:4px;
+      border-right:1px solid #848484;
+      padding-right:10px;
+      padding-bottom:7px;
+}
+#sign-in{font-weight:Bold;
+          font-size:1.1em;
+          float:left;
+          padding:6px 30px 12px 15px;
+          border-right:1px solid #848484;
+ 
+}
+#search-box{
+            width:30px;
+            float:left;
+            padding:10px;
+}
+#search-box input{background-image: url('http://static.bbci.co.uk/framework/barlesque/2.88.1/orb/4/img/orb-searchdark.png');
+                  background-repeat:no-repeat;
+                  background-position:right-center;
+                  
+   }
